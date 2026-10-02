@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Xcode build output and personal settings
+build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+*.ipa
+*.dSYM/
+*.dSYM.zip
+
+# Local configuration
+.env
+.env.*
+!.env.example
+*.p12
+*.mobileprovision
+
+# SQLite runtime files
+*.db-shm
+*.db-wal
+*.db-journal
